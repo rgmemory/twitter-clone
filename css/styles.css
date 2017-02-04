@@ -48,6 +48,7 @@ body {
 	border: 1px solid #019ad2;
 	cursor: pointer;
 	border-radius: 4px;
+	disabled: false;
 }
 .button:disabled {
 	color: #777;
@@ -129,6 +130,8 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			display: none;
+
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -258,5 +261,3 @@ body {
 				top: 0;
 				left: 0;
 			}
-
-
